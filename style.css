@@ -1,0 +1,44 @@
+.carousel-item {
+    background-size: cover;
+}
+
+.ad1 {
+    background: url(https://source.unsplash.com/1600x300/?sea) no-repeat center
+        center;
+}
+
+.ad2 {
+    background: url(https://source.unsplash.com/1600x300/?book) no-repeat center
+        center;
+}
+
+.ad3 {
+    background: url(https://source.unsplash.com/1600x300/?country) no-repeat
+        center center;
+}
+
+@media (max-width: 576px) {
+    .carousel-item {
+        min-height: 12rem;
+    }
+}
+
+@media (min-width: 576px) {
+    .carousel-item {
+        min-height: 17rem;
+    }
+}
+
+#newsletter-box {
+    background-size: cover;
+    background: url(https://source.unsplash.com/1600x300/?snow) no-repeat center
+        center;
+}
+
+.form-box {
+    width: 20rem;
+}
+
+footer a {
+    color: #aaaaab;
+}

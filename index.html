@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Blog</title>
+        <link rel="stylesheet" href="style.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        />
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a href="#" class="navbar-brand">
+                    <img
+                        height="30"
+                        src="https://cdn.pixabay.com/photo/2016/05/04/21/51/instagram-1372870_640.jpg"
+                        alt=""
+                    />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarMenu"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarMenu">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Artykuły</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Sklep</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Kontakt</a>
+                        </li>
+                    </ul>
+                    <form action="" class="d-flex">
+                        <input
+                            type="search"
+                            placeholder="Szukaj..."
+                            class="form-control"
+                        />
+                        <button class="btn btn-outline-secondary" type="submit">
+                            Szukaj
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container">
+            <div
+                id="topCarousel"
+                data-bs-ride="carousel"
+                class="mt-3 carousel slide"
+            >
+                <ol class="carousel-indicators">
+                    <li
+                        data-bs-target="#topCarousel"
+                        data-bs-slide-to="0"
+                        class="active"
+                    ></li>
+                    <li data-bs-target="#topCarousel" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#topCarousel" data-bs-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div
+                        class="carousel-item rounded ad1 active"
+                        data-bs-interval="3000"
+                    >
+                        <div class="carousel-caption text-light">
+                            <h3>Gdzie wyjechać na wakacje?</h3>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item rounded ad2"
+                        data-bs-interval="3000"
+                    >
+                        <div class="carousel-caption text-light">
+                            <h4>Kindle poleca się w podróż!</h4>
+                            <p>Wakacyjne bestsellery</p>
+                            <div class="data-caption">19 luty</div>
+                        </div>
+                    </div>
+                    <div
+                        class="carousel-item rounded ad3"
+                        data-bs-interval="3000"
+                    >
+                        <div class="carousel-caption text-light">
+                            <h4>Życie na wsi</h4>
+                            <p>Plusy oraz minusy</p>
+                            <div class="data-caption d-none d-sm-block">
+                                19 maj
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button
+                    class="carousel-control-prev"
+                    type="button"
+                    data-bs-target="#topCarousel"
+                    data-bs-slide="prev"
+                >
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button
+                    class="carousel-control-next"
+                    type="button"
+                    data-bs-target="#topCarousel"
+                    data-bs-slide="next"
+                >
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+
+        <main class="container">
+            <div class="row mt-3">
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img
+                            src="https://source.unsplash.com/725x480/?reading"
+                            class="card-img-top"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Nowości u Leigh Bardugo</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eligendi, reprehenderit.
+                            </p>
+                            <a href="#" class="btn btn-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4">
+                    <div class="card">
+                        <img
+                            src="https://source.unsplash.com/725x480/?plant"
+                            class="card-img-top"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Jak zrobić wiosenny inspekt
+                            </h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eligendi, reprehenderit.
+                            </p>
+                            <a href="#" class="btn btn-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="d-none d-md-block col-sm-6 col-md-4">
+                    <div class="card">
+                        <img
+                            src="https://source.unsplash.com/725x480/?autumn"
+                            class="card-img-top"
+                            alt=""
+                        />
+                        <div class="card-body">
+                            <h5 class="card-title">Jesień w Bieszczadach</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor, sit amet consectetur
+                                adipisicing elit. Eligendi, reprehenderit.
+                            </p>
+                            <a href="#" class="btn btn-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8 mt-5 mb-5">
+                    <div class="blog-post">
+                        <img
+                            src="https://source.unsplash.com/720x480/?garden"
+                            alt=""
+                            class="rounded float-end w-50 ms-4 mb-4"
+                        />
+                        <h2 class="blog-post-title">Wiosenny ogród</h2>
+                        <p class="blog-post-date">
+                            10 marca 2024
+                            <a href="#" class="link-secondary">Kasia</a>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aspernatur, aliquam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                        </p>
+                    </div>
+
+                    <div class="blog-post">
+                        <img
+                            src="https://source.unsplash.com/720x480/?toddler"
+                            alt=""
+                            class="rounded float-end w-50 ms-4 mb-4"
+                        />
+                        <h2 class="blog-post-title">Podróż z maluchem</h2>
+                        <p class="blog-post-date">
+                            14 luty 2023
+                            <a href="#" class="link-secondary">Kasia</a>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aspernatur, aliquam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                        </p>
+                    </div>
+
+                    <div class="blog-post">
+                        <img
+                            src="https://source.unsplash.com/720x480/?sweden"
+                            alt=""
+                            class="rounded float-end w-50 ms-4 mb-4"
+                        />
+                        <h2 class="blog-post-title">Saga o Fjällbace</h2>
+                        <p class="blog-post-date">
+                            30 października 2022
+                            <a href="#" class="link-secondary">Kasia</a>
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aspernatur, aliquam!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Consequuntur amet quia blanditiis voluptas
+                            sequi culpa porro possimus recusandae in adipisci!
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Laboriosam porro expedita incidunt sequi
+                            molestias asperiores voluptatibus quasi minus maxime
+                            libero veritatis pariatur nisi amet eos et assumenda
+                            ab nobis harum quos sit aspernatur, vero soluta in?
+                            Deleniti pariatur cupiditate placeat.
+                        </p>
+                    </div>
+                    <nav class="mt-5">
+                        <ul class="pagination justify-content-center">
+                            <li class="page-item disabled">
+                                <a
+                                    href="#"
+                                    tabindex="-1"
+                                    class="page-link link-dark"
+                                    >Poprzednia</a
+                                >
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link active link-dark"
+                                    >1</a
+                                >
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">2</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">3</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">4</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">5</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">6</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark">7</a>
+                            </li>
+                            <li class="page-item">
+                                <a href="#" class="page-link link-dark"
+                                    >Następna</a
+                                >
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <aside class="col-md-4 mt-5">
+                    <div class="bg-light p-4 mb-3 rounded">
+                        <h4 class="font-italic">O stronie</h4>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit. Explicabo laudantium quia, nostrum
+                            reprehenderit illo praesentium fugiat sequi. Esse,
+                            commodi eius praesentium iusto aspernatur doloribus,
+                            soluta minus, voluptas quo quaerat ducimus!
+                            Blanditiis quod sit excepturi perferendis aperiam
+                            omnis, deleniti asperiores qui iusto, deserunt
+                            necessitatibus temporibus rerum aliquam suscipit
+                            praesentium voluptatibus saepe?
+                        </p>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-italic">Archiwum</h4>
+                        <ol class="list-unstyled">
+                            <li>
+                                <a href="#" class="link-secondary">2024</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary">2023</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary">2022</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary">2021</a>
+                            </li>
+                        </ol>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="font-italic">Kategorie</h4>
+                        <ol class="list-unstyled">
+                            <li>
+                                <a href="#" class="link-secondary">Podróże</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary">Kulinaria</a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary"
+                                    >Życie na wsi</a
+                                >
+                            </li>
+                            <li>
+                                <a href="#" class="link-secondary">Książki</a>
+                            </li>
+                        </ol>
+                    </div>
+                </aside>
+            </div>
+
+            <div id="newsletter-box" class="rounded p-4 mb-3 bg-light">
+                <div class="d-flex justify-content-center align-content-center">
+                    <div class="form-box">
+                        <form
+                            action=""
+                            novalidate
+                            class="row g-3 needs-validation"
+                        >
+                            <div class="col-12">
+                                <input
+                                    type="text"
+                                    placeholder="Wpisz email"
+                                    required
+                                    id="emailInput"
+                                    class="form-control"
+                                />
+                                <div class="valid-feedback">
+                                    Email prawidłowy
+                                </div>
+                                <div class="invalid-feedback">
+                                    Wymagany adres email!
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-check">
+                                    <input
+                                        type="checkbox"
+                                        required
+                                        class="form-check-input"
+                                        id="agreement"
+                                    />
+                                    <label
+                                        for="agreement"
+                                        class="form-check-label"
+                                        >Zgadzam się z
+                                        <a href="#" class="link-dark"
+                                            >regulaminem</a
+                                        ></label
+                                    >
+                                    <div class="invalid-feedback">
+                                        Wymagane zaznaczenie
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-secondary btn-block w-100"
+                                    type="submit"
+                                >
+                                    Zapisz mnie do newslettera
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mt-3">
+                <div class="col-sm-6">
+                    <div
+                        class="border rounded row g-0 overflow-hidden shadow-sm-position-relative"
+                    >
+                        <div class="col p-4 d-flex flex-column">
+                            <strong class="mb-2 text-secondary">Podróże</strong>
+                            <h3>Portugalia</h3>
+                            <div class="mb-1 text-muted">2023 Gru 1</div>
+                            <p class="card-text mb-auto">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aperiam aliquid magnam quos
+                                eaque mollitia! Odio.
+                            </p>
+                            <a href="#" class="stratched-link link-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img
+                                width="200"
+                                height="250"
+                                src="https://source.unsplash.com/320x480/?portugal"
+                                alt=""
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div
+                        class="border rounded row g-0 overflow-hidden shadow-sm-position-relative"
+                    >
+                        <div class="col p-4 d-flex flex-column">
+                            <strong class="mb-2 text-secondary">Podróże</strong>
+                            <h3>Włochy</h3>
+                            <div class="mb-1 text-muted">2023 Mar 15</div>
+                            <p class="card-text mb-auto">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aperiam aliquid magnam quos
+                                eaque mollitia! Odio.
+                            </p>
+                            <a href="#" class="stratched-link link-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img
+                                width="200"
+                                height="250"
+                                src="https://source.unsplash.com/320x480/?italy"
+                                alt=""
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div
+                        class="border rounded row g-0 overflow-hidden shadow-sm-position-relative"
+                    >
+                        <div class="col p-4 d-flex flex-column">
+                            <strong class="mb-2 text-secondary">Podróże</strong>
+                            <h3>Chorwacja</h3>
+                            <div class="mb-1 text-muted">2023 Sty 2</div>
+                            <p class="card-text mb-auto">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aperiam aliquid magnam quos
+                                eaque mollitia! Odio.
+                            </p>
+                            <a href="#" class="stratched-link link-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img
+                                width="200"
+                                height="250"
+                                src="https://source.unsplash.com/320x480/?croatia"
+                                alt=""
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div
+                        class="border rounded row g-0 overflow-hidden shadow-sm-position-relative"
+                    >
+                        <div class="col p-4 d-flex flex-column">
+                            <strong class="mb-2 text-secondary">Podróże</strong>
+                            <h3>Norwegia</h3>
+                            <div class="mb-1 text-muted">2022 Wrz 15</div>
+                            <p class="card-text mb-auto">
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Aperiam aliquid magnam quos
+                                eaque mollitia! Odio.
+                            </p>
+                            <a href="#" class="stratched-link link-secondary"
+                                >Czytaj więcej...</a
+                            >
+                        </div>
+                        <div class="col-auto d-none d-lg-block">
+                            <img
+                                width="200"
+                                height="250"
+                                src="https://source.unsplash.com/320x480/?norway"
+                                alt=""
+                                class="img-fluid"
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        <footer id="footer" class="text-light bg-dark mt-3">
+            <div class="container pt-4">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <h5>Szybkie linki</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#">O nas</a></li>
+                            <li><a href="#">Artykuły</a></li>
+                            <li><a href="#">Regulamin</a></li>
+                            <li><a href="#">Kontakt</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <h5>Kontakt</h5>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="tel:+48792829594"
+                                    ><i class="fa-solid fa-phone"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="mailto:katarzyna.lubecka93@gmail.com"
+                                    ><i class="fa-solid fa-envelope"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://www.linkedin.com/in/katarzyna-lubecka-b4736a182/?originalSubdomain=pl"
+                                    ><i class="fa-brands fa-linkedin"></i
+                                ></a>
+                            </li>
+                            <li>
+                                <a href="#"
+                                    ><i class="fa-brands fa-github"></i
+                                ></a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xs-12 col-sm-4 text-center">
+                        <h5>Adres</h5>
+                        <p class="mb-0">Wilcza 7</p>
+                        <p>00-001 Warszawa</p>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center p-3">
+                        Copyright by Blog. All right reserved.
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
